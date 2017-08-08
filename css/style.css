@@ -1,0 +1,317 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Helvetica,微软雅黑,arial";
+  background-color: #f6f6f6; }
+  body a {
+    text-decoration: none; }
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: none; }
+
+a, button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+button {
+  -webkit-appearance: none; }
+
+.full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 3.2rem;
+  font-size: 1.4rem;
+  overflow: scroll; }
+
+.one .mlTop {
+  width: 100%;
+  height: 4.6rem;
+  padding: 0 5rem;
+  box-sizing: border-box;
+  position: relative;
+  line-height: 4.6rem; }
+  .one .mlTop a {
+    position: absolute;
+    top: 0;
+    width: 5rem;
+    height: 100%; }
+  .one .mlTop a.mlLogo {
+    left: 0;
+    background: url("http://static.hx2cars.com/resource/web/mobpages/images/mindex/toplogo.png") center center no-repeat;
+    background-size: 3rem; }
+  .one .mlTop a.login {
+    right: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #666; }
+  .one .mlTop .gwtStation, .one .mlTop .gwtSearch {
+    float: left; }
+  .one .mlTop .gwtStation {
+    width: 20%;
+    line-height: 4.6rem; }
+  .one .mlTop .gwtSearch {
+    width: 77%;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 3rem;
+    margin-top: 0.8rem;
+    border-radius: 0.4rem;
+    border: 1px solid #eaeaea;
+    line-height: 3rem;
+    color: #999;
+    position: relative; }
+    .one .mlTop .gwtSearch i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 5rem;
+      height: 100%;
+      background: url("http://static.hx2cars.com/resource/web/mobpages/images/mindex/topsearch.png") center center no-repeat;
+      background-size: 2.5rem; }
+.one .box1 {
+  padding: 1rem 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  background-color: transparent;
+  overflow: hidden; }
+  .one .box1 a {
+    width: 49%;
+    float: left;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1.4rem 0 1.4rem 1.1rem;
+    box-sizing: border-box;
+    position: relative; }
+    .one .box1 a .title1, .one .box1 a .title2 {
+      text-align: left; }
+    .one .box1 a .title1 {
+      font-size: 1.5rem;
+      line-height: 2rem; }
+    .one .box1 a .title2 {
+      font-size: 1rem; }
+  .one .box1 a:nth-of-type(2) {
+    float: right; }
+  .one .box1 a.buyCar {
+    background-color: #ff8450; }
+  .one .box1 a.sellCar {
+    background-color: #ff6d62; }
+  .one .box1 a:after {
+    display: block;
+    content: "";
+    width: 6rem;
+    height: 100%;
+    background: url("../images/icon-m1.png") center center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+.swiper-container {
+  width: 100%;
+  height: 20rem; }
+  .swiper-container img {
+    width: 100%;
+    height: 100%; }
+
+.two {
+  background-color: #292929;
+  transform: translate(100%, 0);
+  transition: all .3s linear .2s;
+  color: #fff; }
+
+.two_left {
+  transform: translate(0, 0); }
+
+.findCar {
+  width: 100%;
+  height: 4.9rem;
+  line-height: 4.9rem;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative; }
+  .findCar:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 1.5rem;
+    background-color: #f60;
+    top: 1.7rem;
+    left: 1.5rem; }
+  .findCar:after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background-color: #e1e1e1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+
+.myPrice {
+  width: 100%;
+  height: auto;
+  padding: 0 1.2rem;
+  margin-top: 1.8rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .myPrice .item {
+    width: 21%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #333;
+    font-size: 1.3rem;
+    border-radius: 0.2rem;
+    background-color: #ebebeb;
+    margin-bottom: 1.3rem; }
+
+.myBrand {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1.82rem 1.2rem 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .myBrand a {
+    display: block;
+    width: 17%;
+    height: auto;
+    margin-bottom: 1rem; }
+    .myBrand a span {
+      display: block;
+      width: 100%;
+      color: #666;
+      text-align: center;
+      line-height: 3.4rem; }
+      .myBrand a span img {
+        width: 3.64rem;
+        height: auto; }
+
+.carTypes a span {
+  line-height: 3rem; }
+
+.hotCity .item {
+  width: 17%; }
+
+.gwtBtn {
+  width: 100%;
+  padding: 1.8rem 1.45rem 0.8rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .gwtBtn a {
+    width: 45%;
+    height: 4.85rem;
+    text-align: center;
+    line-height: 4.85rem;
+    border: 1px solid #f60;
+    font-size: 1.3rem;
+    color: #f60;
+    font-weight: bold; }
+
+.one .mFourcar {
+  width: 100%; }
+  .one .mFourcar .mTitle {
+    width: 100%;
+    height: 4.9rem;
+    background-color: #fff;
+    box-shadow: 0 2px 3px #eee;
+    border-bottom: 1px solid #ffe9da;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 4.9rem; }
+    .one .mFourcar .mTitle .item {
+      width: 25%;
+      height: 100%; }
+      .one .mFourcar .mTitle .item span {
+        display: inline-block;
+        height: 100%; }
+    .one .mFourcar .mTitle .active {
+      color: #f60;
+      font-weight: bold; }
+      .one .mFourcar .mTitle .active span {
+        border-bottom: 1px solid #f60; }
+  .one .mFourcar .mCarList {
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 0.8rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .one .mFourcar .mCarList .item {
+      width: 49%;
+      height: auto;
+      margin-bottom: 0.8rem;
+      display: none;
+      background-color: #fff;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); }
+      .one .mFourcar .mCarList .item img {
+        width: 100%; }
+      .one .mFourcar .mCarList .item h1 {
+        width: 100%;
+        padding: 0 1rem;
+        font-size: 1.3rem;
+        color: #333;
+        line-height: 1.7rem;
+        height: 3.4rem;
+        overflow: hidden;
+        margin: 1rem 0 1rem 0;
+        box-sizing: border-box; }
+    .one .mFourcar .mCarList.active .item {
+      display: block; }
+.one .buyCarTitle {
+  background-color: #fff; }
+.one .buyCarbaike {
+  background-color: #fff; }
+  .one .buyCarbaike .content {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem; }
+    .one .buyCarbaike .content:last-of-type {
+      border-bottom: 0; }
+    .one .buyCarbaike .content .item1 {
+      width: 35%; }
+      .one .buyCarbaike .content .item1 img {
+        width: 100%; }
+    .one .buyCarbaike .content .item2 {
+      width: 60%;
+      text-align: left; }
+      .one .buyCarbaike .content .item2 h2 {
+        font-size: 1.36rem;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .one .buyCarbaike .content .item2 p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        color: #666; }
+
+/*# sourceMappingURL=style.css.map */
